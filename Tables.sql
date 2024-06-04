@@ -26,7 +26,6 @@ INSERT Departments (DepartmentID, Name, Location) VALUES (10, 'Sales', 'Pune'),
 (30, 'Accounts', 'Pune'),
 (40, 'Customer Care', 'Mumbai')
 
-SET IDENTITY_INSERT Employee OFF
 SET IDENTITY_INSERT Employees ON 
 
 INSERT Employees (Number, Name, Salary, Commission, DateOfJoining, DateOfBirth, DepartmentNo, JobTitle, ReportingTo) 
@@ -44,4 +43,5 @@ INSERT Employees (Number, Name, Salary, Commission, DateOfJoining, DateOfBirth, 
 			(13, 'Akshay', 1500, 20, '2017-07-12', '1995-09-01', 30, 'Cashier', NULL),
 			(14, 'Nandita', 4000, 50, '2017-09-12', '1995-02-01', 30, 'President', NULL),
 			(15, 'Sonal', 2000, 5, '2016-04-23', '1996-03-12', 10, 'Salesman', 5)
+
 SET IDENTITY_INSERT Employees OFF
