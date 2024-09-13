@@ -1,3 +1,10 @@
+CREATE TABLE Login (
+	Email varchar(30) PRIMARY KEY,
+	Password varchar(20) NOT NULL,
+	Role int NOT NULL
+)
+GO
+
 CREATE TABLE Departments(
 	DepartmentID int PRIMARY KEY,
 	Name nvarchar(255) NOT NULL,
